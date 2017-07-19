@@ -12,7 +12,8 @@ module.exports = (req, res) => {
                 'message': 'ok',
                 'data': {
                     'userInfo': data.userInfo,
-                },
+                    'recommendList':require("recommend.json")
+                }
             });
         });
 };
